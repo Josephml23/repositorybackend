@@ -1,0 +1,75 @@
+:root {
+  --primario: #4f46e5;
+  --secundario: #06b6d4;
+  --oscuro: #0f172a;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main { flex: 1; }
+
+.navbar { background-color: var(--oscuro); }
+.navbar-brand { font-weight: 600; }
+.navbar-brand i { color: var(--secundario); }
+.nav-link.active { color: var(--secundario) !important; font-weight: 500; }
+
+.hero {
+  background: linear-gradient(135deg, var(--primario), var(--secundario));
+  color: #fff;
+  padding: 110px 0 120px;
+}
+.hero-sm { padding: 70px 0; }
+.hero .lead { max-width: 640px; opacity: 0.95; }
+.badge-pill {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.feature, .stat, .service, .form-card {
+  background: #fff;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+.feature { padding: 32px 24px; height: 100%; transition: transform 0.2s; }
+.feature:hover, .service:hover { transform: translateY(-6px); }
+.feature i { font-size: 2.4rem; color: var(--primario); }
+.feature h5 { margin-top: 14px; font-weight: 600; }
+.feature p { color: #64748b; margin: 0; }
+
+.service { transition: transform 0.2s; padding: 16px 8px; }
+.service .icon {
+  width: 64px; height: 64px; margin: 0 auto 16px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--primario), var(--secundario));
+  color: #fff; font-size: 1.6rem;
+}
+
+.stat { padding: 24px 12px; }
+.stat strong { display: block; font-size: 2rem; color: var(--primario); }
+.stat span { color: #64748b; }
+
+.list-check { list-style: none; padding: 0; }
+.list-check li { margin-bottom: 8px; }
+.list-check i { color: #10b981; margin-right: 6px; }
+
+.btn-primary { background-color: var(--primario); border-color: var(--primario); }
+.btn-primary:hover { background-color: #4338ca; border-color: #4338ca; }
+
+.footer {
+  background-color: var(--oscuro);
+  color: #cbd5e1;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+.footer i { color: var(--secundario); }

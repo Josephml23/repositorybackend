@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<%- include('partials/head') %>
+</head>
+<body>
+<%- include('partials/navbar') %>
+
+<header class="hero hero-sm">
+  <div class="container text-center">
+    <h1 class="fw-bold">Sobre Nosotros</h1>
+    <p class="lead mx-auto">Somos un equipo dedicado al desarrollo de aplicaciones web.</p>
+  </div>
+</header>
+
+<main class="container py-5">
+  <div class="row g-4 align-items-center">
+    <div class="col-md-6">
+      <h3 class="fw-semibold">Nuestra misión</h3>
+      <p>Crear sitios y aplicaciones web rápidos, seguros y fáciles de mantener, usando tecnologías modernas como Node.js y Express.</p>
+      <ul class="list-check">
+        <li><i class="bi bi-check-circle-fill"></i> Código ordenado en rutas, controladores y vistas</li>
+        <li><i class="bi bi-check-circle-fill"></i> Diseño adaptable a celulares</li>
+        <li><i class="bi bi-check-circle-fill"></i> Despliegue continuo desde GitHub</li>
+      </ul>
+      <a href="/" class="btn btn-primary mt-2">Volver al Inicio</a>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-3 text-center">
+        <div class="col-6"><div class="stat"><strong>3</strong><span>Servicios</span></div></div>
+        <div class="col-6"><div class="stat"><strong>4</strong><span>Páginas</span></div></div>
+        <div class="col-6"><div class="stat"><strong>100%</strong><span>Responsive</span></div></div>
+        <div class="col-6"><div class="stat"><strong>24/7</strong><span>En la nube</span></div></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
+<%- include('partials/scripts') %>
+</body>
+</html>

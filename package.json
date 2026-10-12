@@ -1,0 +1,18 @@
+{
+  "name": "mi-sitio-express",
+  "version": "1.0.0",
+  "description": "Sitio web con Express, EJS y Bootstrap desplegado en Render",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "josephml23 <josephmarcani23@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  }
+}

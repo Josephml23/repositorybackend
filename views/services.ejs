@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<%- include('partials/head') %>
+</head>
+<body>
+<%- include('partials/navbar') %>
+
+<header class="hero hero-sm">
+  <div class="container text-center">
+    <h1 class="fw-bold">Nuestros Servicios</h1>
+    <p class="lead mx-auto">Soluciones a medida para llevar tu proyecto a internet.</p>
+  </div>
+</header>
+
+<main class="container py-5">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card service h-100 text-center">
+        <div class="card-body">
+          <div class="icon"><i class="bi bi-code-slash"></i></div>
+          <h5 class="card-title">Desarrollo web</h5>
+          <p class="card-text">Creación de sitios y aplicaciones web a medida.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card service h-100 text-center">
+        <div class="card-body">
+          <div class="icon"><i class="bi bi-diagram-3"></i></div>
+          <h5 class="card-title">Consultoría técnica</h5>
+          <p class="card-text">Asesoría en arquitectura y buenas prácticas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card service h-100 text-center">
+        <div class="card-body">
+          <div class="icon"><i class="bi bi-tools"></i></div>
+          <h5 class="card-title">Soporte y mantenimiento</h5>
+          <p class="card-text">Acompañamiento continuo posterior al desarrollo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
+<%- include('partials/scripts') %>
+</body>
+</html>
